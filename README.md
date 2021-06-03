@@ -1,2 +1,2 @@
-# dev-env-setup-personal
+# dev-env-preferences
 contains preferred settings and keybindings
