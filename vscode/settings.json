@@ -1,0 +1,49 @@
+// Author: Andrew Stone
+// Description: Overrides Default Setting
+{
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "editor.minimap.enabled": false,
+  "workbench.editorAssociations": [
+    {
+      "viewType": "default",
+      "filenamePattern": "*.json"
+    },
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "terminal.integrated.fontFamily": "Ubuntu Mono derivative Powerline",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": "600",
+  "editor.fontFamily": "'IBM Plex Mono', 'Fira Code', sans-serif",
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "python.pythonPath": "/usr/local/bin/python3",
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "python.linting.banditEnabled": false,
+  "python.linting.flake8Enabled": false,
+  "python.linting.mypyEnabled": false,
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "workbench.settings.editor": "json",
+  "workbench.settings.useSplitJSON": true,
+  "workbench.settings.openDefaultSettings": true,
+  "workbench.settings.openDefaultKeybindings": true,
+  "[python]": {
+    // "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.formatting.provider": "black",
+  "editor.renderControlCharacters": true,
+  "workbench.colorTheme": "Eva Dark",
+  // "window.zoomLevel": 0,
+  "editor.tokenColorCustomizations": {
+    "[Eva Dark]": {
+      "comments": "#a06000"
+    }
+  }
+}
